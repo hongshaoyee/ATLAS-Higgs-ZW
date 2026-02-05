@@ -1,32 +1,20 @@
-# ---- Python ----
+# ---- Python / Jupyter ----
 __pycache__/
 *.py[cod]
-*.pyd
-*.so
-*.egg-info/
-dist/
-build/
-pip-wheel-metadata/
-*.log
-
-# Virtual environments
-.venv/
-venv/
-env/
-ENV/
-
-# ---- Jupyter ----
 .ipynb_checkpoints/
-*.nbconvert.ipynb
 
-# ---- IDE / OS ----
-.vscode/
-.idea/
+# ---- Virtual environments ----
+.venv/
+env/
+venv/
+
+# ---- macOS ----
 .DS_Store
-Thumbs.db
 
+# ---- ATLAS lab specific ----
+parquet/
+output-parquet/
+*.tar
 
-# ---- Secrets (never commit) ----
-.env
-*.key
-*.pem
+# ---- VS Code ----
+.vscode/
